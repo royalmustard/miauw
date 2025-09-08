@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+plotters-iced = "0.11"
+iced = {version="0.13", features=["advanced", "debug", "canvas"]}
+iced_graphics = "0.13"
+iced_core = "0.13"
